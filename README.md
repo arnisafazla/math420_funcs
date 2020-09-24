@@ -1,4 +1,5 @@
-Project: math420_funcs\n
+Project: math420_funcs
+
 Functions to be used in introduction to cryptography course.
 
 Shift: 
