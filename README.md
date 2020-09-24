@@ -1,5 +1,5 @@
-Project: math420_funcs
-Fuctions to be used in introduction to cryptography course.
+Project: math420_funcs\n
+Functions to be used in introduction to cryptography course.
 
 Shift: 
   shift(text, shift_amount) 
