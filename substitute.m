@@ -19,7 +19,7 @@ function [output,kf] = substitute(text)
     end
        
     %as before we identify numbers 0,1,..25 with a,b,c,..
-    plt = plt - 97
+    plt = plt - 97;
 
     %we save a random sequence of 26 numbers (0:25) kf: random letter list.
     kf = randperm(26) - 1;
