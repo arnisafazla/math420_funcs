@@ -11,6 +11,6 @@ Functions to be used in introduction to cryptography course.
 
 4. format_numbers: format_numbers(k, bits) => Add some zeros in the beginning to make it bits digits.
 
-5.string(int)
+5. string(int)
 
-6.mult_encrypt(k,b,m) => k is binary key, b is blocksize, m is plaintext. mult_encrypt('1101101010010100100', 5, 'hi') => [13, 1, 20]
+6. mult_encrypt(k,b,m) => k is binary key, b is blocksize, m is plaintext. mult_encrypt('1101101010010100100', 5, 'hi') => [13, 1, 20]
