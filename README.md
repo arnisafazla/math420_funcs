@@ -10,3 +10,7 @@ Functions to be used in introduction to cryptography course.
 3. change_base: change_base(k, a, b) => change the base of int k from a to b. change_base(10, 10, 2) => 1010 (int)
 
 4. format_numbers: format_numbers(k, bits) => Add some zeros in the beginning to make it bits digits.
+
+5.string(int)
+
+6.mult_encrypt(k,b,m) => k is binary key, b is blocksize, m is plaintext. mult_encrypt('1101101010010100100', 5, 'hi') => [13, 1, 20]
