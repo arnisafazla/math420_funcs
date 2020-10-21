@@ -13,4 +13,8 @@ Functions to be used in introduction to cryptography course.
 
 5. string(int)
 
-6. mult_encrypt(k,b,m) => k is binary key, b is blocksize, m is plaintext. mult_encrypt('1101101010010100100', 5, 'hi') => [13, 1, 20]
+6. mult_encrypt(p, k, plaintext, B) => p is a big prime, k is integer key smaller than p, B is bitsize of the text. Calls generate_m(plaintext, B) that converts plaintext into an integer m, then computes m * k % p. Returns int.
+
+7. generate_m(plaintext, B) => Converts plaintext into binary and add 0s to the end. Then converts it into integer.
+
+
