@@ -17,4 +17,6 @@ Functions to be used in introduction to cryptography course.
 
 7. generate_m(plaintext, B) => Converts plaintext into binary and add 0s to the end. Then converts it into integer.
 
+8. mult_decrypt(p, k, ciphertext) => returns int m = ciphertext * inverse(k) % p
 
+9. reverse_m(n) => given integer n generates a string by converting n into binary and dividing it into chunks of 8 bits and finally converting them to chars.
