@@ -21,6 +21,6 @@ Functions to be used in introduction to cryptography course.
 
 9. reverse_m(n) => given integer n generates a string by converting n into binary and dividing it into chunks of 8 bits and finally converting them to chars.
 
-10. vernams_pad(k, m) => k is an integer, m is plaintext. It converts k and m into binary and computes m xor k. Then returns it as a decimal integer.
+10. vernams_pad(k, m) => k is an integer, m is plaintext. It converts k and m into binary and computes m xor k. Then returns it as a decimal integer. One time use. Vulnerable to known plaintext attack.
 
 11. decrypt_vernams_pad(k, c) => k and c integers, it converts them into binary and computes c xor k. Then returns an integer. Then we can use reverse_m(n) to convert to a string.
