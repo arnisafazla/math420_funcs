@@ -24,3 +24,14 @@ Functions to be used in introduction to cryptography course.
 10. vernams_pad(k, m) => k is an integer, m is plaintext. It converts k and m into binary and computes m xor k. Then returns it as a decimal integer. One time use. Vulnerable to known plaintext attack.
 
 11. decrypt_vernams_pad(k, c) => k and c integers, it converts them into binary and computes c xor k. Then returns an integer. Then we can use reverse_m(n) to convert to a string.
+
+12. gcdy(a, b) => au+bv = gcd(a, b). return u, v and g = gcd(a,b)
+
+13. square_and_multiply(N, g, A) => g to the power A mod N
+
+14. primitive_roots(p) => return array of primitive roots of p.
+
+15. primes_with_this_mod(a, p) => function to find all primes with primitive root a, smaller than p
+
+
+
