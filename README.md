@@ -33,5 +33,5 @@ Functions to be used in introduction to cryptography course.
 
 15. primes_with_this_mod(a, p) => function to find all primes with primitive root a, smaller than p
 
-
+16. shank_steps(g, h, p) => DLP: Let g**x = h (mod p). Find x. An algorithm to find x (solution of DLP) in O(sqrt(N) * logN) time. N is ordg (mod p).
 
