@@ -36,3 +36,7 @@ Functions to be used in introduction to cryptography course.
 16. shank_steps(g, h, p) => DLP: Let g**x = h (mod p). Find x. An algorithm to find x (solution of DLP) in O(sqrt(N) * logN) time. N is ordg (mod p).
 
 17. pollards(N, end) => Factoring N. Start with 10 and keep trying larger numbers for n.
+
+18. MillerTest(n, a) => Miller Rabin Test. Returns true if a is a witness for compositeness of n, returns False otherwise
+
+19. RiemannMillerTest(n) => Checks if a number is prime. If it is True, the number n is composite, else False
