@@ -35,3 +35,4 @@ Functions to be used in introduction to cryptography course.
 
 16. shank_steps(g, h, p) => DLP: Let g**x = h (mod p). Find x. An algorithm to find x (solution of DLP) in O(sqrt(N) * logN) time. N is ordg (mod p).
 
+17. pollards(N, end) => Factoring N. Start with 10 and keep trying larger numbers for n.
